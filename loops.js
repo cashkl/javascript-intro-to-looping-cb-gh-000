@@ -1,9 +1,9 @@
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
-    array[i]=`I am ${i} strange loop`
+    array[array.length]=`I am ${i} strange loop`
   }
 }
-function whileLoop(i) {
+function whileLoop(i != 0) {
   while (i) {
     console.log(i);
     i--;
