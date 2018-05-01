@@ -1,6 +1,6 @@
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
-    array[array.length]=`I am ${i} strange loop`
+    array.push(`I am ${i} strange loop`)
   }
 }
 function whileLoop(i != 0) {
